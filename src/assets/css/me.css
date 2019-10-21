@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.me_top{
+  width: 7.5rem;
+  height: .5rem;
+  background-color: #ff9900;
+}
+.top{
+  position: relative;
+  width: 7.5rem;
+  height: 3.24rem;
+  background-color: #ff9900;
+}
+.top_left{
+  position: absolute;
+  width: .5rem;
+  height: .5rem;
+  left: .28rem;
+  top:.26rem;
+}
+.top p{
+  font-size: .42rem;
+  color: #fff;
+  text-align: center;
+  line-height: .98rem;
+}
+.top_right{
+  position: absolute;
+  width: .6rem;
+  height: .54rem;
+  right: .46rem;
+  top:.26rem;
+}
+.bor{
+  position: absolute;
+  left: 2.7rem;
+  top:1.9rem;
+  margin-bottom: .23rem;
+  width: 1.82rem;
+  height: 1.82rem;
+  border: .19rem solid #fff;
+  border-radius: 50%;
+  background-color: #e6dfdf;
+}
+.top_bottom{
+  width: 1.84rem;
+  height: 1.84rem;
+  border-radius: 50%;
+  margin-left: -.01rem;
+  margin-top: -.01rem;
+}
+.reg{
+  margin-top: 1rem;
+  font-size: .3rem;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+.col{
+  height: .36rem;
+  background: url("../images/keep.png") no-repeat;
+  background-size: .42rem .36rem;
+  text-indent: .67rem;
+  margin-left: .36rem;
+  line-height: .36rem;
+  font-size: .3rem;
+  margin-bottom: .4rem;
+}
+.soil{
+  width: 7.5rem;
+  height: .12rem;
+  background-color: #efeeee;
+}
+.order{
+  width: 7.5rem;
+  height: 1.21rem;
+  border-bottom: .01rem solid #efeeee;
+}
+.order p{
+  font-size: .3rem;
+  line-height: 1.21rem;
+}
+.order .left{
+  float: left;
+  margin-left: .47rem;
+
+}
+.order .right{
+  float: right;
+  color: #999999;
+}
+.order_list{
+  height: 1.85rem;
+}
+.order_list ul li{
+  display: inline-block;
+  margin: 0 .32rem;
+}
+.order_list ul li span{
+  display: inline-block;
+  width: .56rem;
+  height: .49rem;
+  background-size: .56rem .49rem;
+  margin: .44rem 0 .22rem .08rem;
+}
+.order_list ul li p{
+  color: #999999;
+}
+.one{
+  background: url("../images/icon_boligation.png") no-repeat;
+}
+.two{
+  background: url("../images/prepare.png") no-repeat;
+}
+.three{
+  background: url("../images/icon_consignee.png") no-repeat;
+}
+.four{
+  background: url("../images/icon_evaluate.png") no-repeat;
+}
+.five{
+  background: url("../images/icon_refund.png") no-repeat;
+}
+.site{
+  height: 1.28rem;
+  font-size: .32rem;
+  color: #999999;
+  line-height: 1.28rem;
+  padding-left: .45rem;
+}

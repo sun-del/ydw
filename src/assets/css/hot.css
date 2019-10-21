@@ -1,0 +1,57 @@
+.hot{
+	padding-left: .24rem;
+	font-size: 24px;
+}
+.hot img{
+	display: inline-block;
+	vertical-align:middle;
+	margin: .26rem .2rem .3rem 0;
+}
+.hot span{
+	font-size: 24px;
+}
+.carousel ul{
+	width: 7.5rem;
+	height: 4.68rem;
+	overflow: hidden;
+}
+.carousel ul li{
+	width: 3.22rem;
+	height: 4.64rem;
+	border: 1px solid #eeeeee;
+	background-color: #fff;
+	
+}
+.carousel ul li img{
+	width: 1.63rem;
+	height: 2.64rem;
+	margin: .34rem .72rem .36rem .82rem;
+}
+.price{
+	float: left;
+	width: 2.6rem;        
+	/* padding-left: .2rem; */
+	/* padding-right: .4rem; */
+	height: .26rem;
+	line-height: .26rem;
+	margin-left: .2rem;
+	margin-bottom: .2rem;
+}
+.price .one{
+	float: left;
+	color: #FF0000;
+	font-size: .24rem;
+}
+.price .two{
+	float: right;
+	text-decoration: line-through;
+	color: #707070;
+	font-size: .18rem;
+}
+.price p{
+	margin-left: .2rem;
+	margin-right: .4rem;
+	font-size: .24rem;
+	line-height: .32rem;
+	margin-top: .16rem;
+}

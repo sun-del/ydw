@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: .16rem;
+}
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.shopp_heard{
+  position: fixed;
+  top:0;
+  width: 7.5rem;
+  height: .94rem;
+  background: url("../images/oring.jpg");
+
+}
+.hove{
+  margin-top: 1.32rem;
+  margin-bottom: 2.12rem;
+}
+.shopp_content{
+  padding-left: .38rem;
+  height: 2.94rem;
+}
+.shopp_heard span{
+  width: 6.7rem;
+  display:inline-block;
+  font-size: .4rem;
+  color: #fff;
+  text-align: center;
+  line-height: .94rem;
+  vertical-align:middle;
+}
+.shopp_heard img{
+  width: .25rem;
+  height: .44rem;
+  margin-left: .4rem;
+  vertical-align:middle;
+}
+.shopp_content{
+  padding-left: .36rem;
+  width: 7.14rem;
+}
+.shopp_content-top{
+  margin: .35rem .27rem .47rem 0;
+}
+.shopp_content-top img{
+  vertical-align:middle;
+  width: .36rem;
+  height: .36rem;
+}
+.shopp_content-top span{
+  vertical-align:middle;
+  font-size: .26rem;
+  color: #999999;
+}
+.shopp_content-bottom{
+  /*height: 2.86rem;*/
+  width: 7.14rem;
+}
+.shopp_content-bottom .name input{
+  float: left;
+  /*display: inline-block;*/
+  width: .42rem;
+  height: .42rem;
+  margin: .57rem .19rem 0 0;
+  /*vertical-align:middle;*/
+  background: url("../images/radio_nor1.png") no-repeat;
+  background-size: .42rem .42rem;
+}
+.shopp_content-bottom .name input.show{
+  background: url("../images/radio_nor.png") no-repeat;
+  background-size: .42rem .42rem;
+}
+.shopp_content-bottom_img{
+  float: left;
+  width: 1.57rem;
+  height: 1.63rem;
+  margin-left: .1rem;
+  vertical-align:middle;
+}
+.shopp_content-bottom_txt{
+  float: left;
+  width: 2.78rem;
+  height: 1.6rem;
+  margin-right: .32rem;
+  margin-left: .2rem;
+
+}
+.shopp_content-bottom_txt p{
+  font-size: .32rem;
+  margin-bottom: .37rem;
+}
+.shopp_content-bottom_txt span{
+  color: #b3b3b3;
+}
+.shopp_content-bottom_price{
+  float: left;
+  font-size: .31rem;
+  line-height: 1.59rem;
+  width: 1.18rem;
+}
+.shopp_content-bottom_txt_num{
+  width: 2.4rem;
+  height: .42rem;
+  border: .02rem solid #cccccc;
+}
+.shopp_content-bottom_txt_num span{
+  font-size: .32rem;
+  text-align: center;
+}
+.shopp_content-bottom_txt_num .dec{
+  display: inline-block;
+  width: .74rem;
+  height: .42rem;
+  border-right: .02rem solid #cccccc;
+}
+.shopp_content-bottom_txt_num .num{
+  display: inline-block;
+  width: .8rem;
+  height: .42rem;
+  border: none;
+  text-align: center;
+  background-color: #fff;
+}
+.shopp_content-bottom_txt_num .add{
+  border-left: .02rem solid #cccccc;
+  display: inline-block;
+  width: .6rem;
+  height: .42rem;
+}
+.shopp_content-bottom_del{
+  float: left;
+  width: .98rem;
+  height: 2.1rem;
+  background-color: #ff9900;
+  color: #fff;
+  text-align: center;
+  line-height: 2.1rem;
+  font-size: .3rem;
+}
+/*购物车底部*/
+.shopp_foot{
+  position: fixed;
+  height: 1.1rem;
+  width: 7.08rem;
+  border-top: .01rem solid #b3b3b3;
+  border-bottom: .01rem solid #b3b3b3;
+  bottom: 1.02rem;
+  padding-left: .42rem;
+  background-color: #fff;
+  margin-top: 1.1rem;
+}
+.shopp_foot ul{
+  float: left;
+  /*height: .56rem;*/
+  margin-top: .1rem;
+}
+.shopp_foot ul li{
+  display: inline-block;
+  width: .6rem;
+  margin-right: .66rem;
+  /*margin-top: -.5rem;*/
+}
+.shopp_foot ul .all input{
+   width: .46rem;
+   height: .46rem;
+   background: url("../images/all_no.png") no-repeat;
+   background-size: .46rem .46rem;
+ }
+.shopp_foot ul .all input.showOne{
+  background: url("../images/all.png") no-repeat;
+  background-size: .46rem .46rem;
+}
+.shopp_foot ul .com input{
+  width: .46rem;
+  height: .46rem;
+  background: url("../images/editor_nor.png") no-repeat;
+  background-size: .46rem .46rem;
+}
+.shopp_foot ul .com input.showTwo{
+  background: url("../images/editor_hig.png") no-repeat;
+  background-size: .46rem .46rem;
+}
+.shopp_foot_all p{
+  font-size: .22rem;
+  color: #a6a6a6;
+}
+.shopp_foot_all{
+  float: left;
+  text-align: center;
+  width: 2.48rem;
+  height: 1rem;
+  margin: .3rem 0 0 0;
+}
+.shopp_foot_cur{
+  float: left;
+  width: 2rem;
+  height: 1.12rem;
+  background-color: #ff5500;
+  font-size: .4rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.12rem;
+}
+.empty{
+  position: fixed;
+  left:50%;
+  top:50%;
+  margin-left: -1.15rem;
+  margin-top: -.55rem;
+  text-align: center;
+}
+.empty p{
+  width: 2.3rem;
+  font-size: .32rem;
+}
+.empty img{
+  width: .86rem;
+  height: .96rem;
+  margin-bottom: .24rem;
+}

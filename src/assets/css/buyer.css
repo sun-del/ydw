@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.buyer{
+  /*margin-bottom: .92rem;*/
+  padding: 0 .48rem;
+  width: 6.54rem;
+  height: .74rem;
+  border-bottom: .01rem solid #dddddd;
+}
+.buyer span{
+  display: inline-block;
+  width: 1.34rem;
+  height: .5rem;
+  background-color: #999999;
+  margin-top: .08rem;
+  font-size: .22rem;
+  color: #fff;
+  text-align: center;
+  line-height: .5rem;
+  border-radius: .3rem;
+  margin-right: .3rem;
+}
+.buyer span:nth-last-of-type(1){
+  margin-right: 0;
+}
+.buyer span.active{
+  background-color: #ff9900;
+}
+.imgs img{
+  width: 1.53rem;
+  height: 1.49rem;
+}
+.buyer_com{
+  padding: 0 .48rem;
+  width: 6.54rem;
+  margin-bottom: .98rem;
+  border-bottom: .01rem solid #dddddd;
+}
+.buyer_com_top{
+  height: .62rem;
+  line-height: .62rem;
+}
+.name{
+  float: left;
+  font-size: .26rem;
+  color: #ff9900;
+}
+.time{
+  float: right;
+  color: #acacac;
+}
+.buyer_com img{
+  width: 1.5rem;
+  height: 1.53rem;
+}
+.buyer_com_txt{
+  font-size: .18rem;
+  height: .4rem;
+  line-height: .4rem;
+}
+.buyer_com_man{
+  font-size: .18rem;
+  background-color: #dddddd;
+  border-radius: .2rem;
+  /*height: .77rem;*/
+  /*line-height: 0;*/
+  padding: .14rem .1rem;
+}

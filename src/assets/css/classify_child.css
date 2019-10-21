@@ -1,0 +1,32 @@
+.classify_child{
+  float: right;
+  width: 5rem;
+}
+.classify_child_list{
+  float: left;
+  width: 2.26rem;
+  height: 2.36rem;
+  border: .03rem solid #00b3ee;
+  line-height: 0;
+  border-radius: .3rem;
+  margin: .06rem;
+}
+.classify_child li img{
+  width: 1.67rem;
+  height: 1.74rem;
+  /*margin-left: -50%;*/
+  margin-left: .25em;
+  margin-top: .1rem;
+
+}
+.classify_child li p{
+  height: .48rem;
+  width: 2.24rem;
+  background-color:#1d84a7;
+  font-size: .2rem;
+  color: #fff;
+  line-height: .49rem;
+  text-align: center;
+  border-radius: 0 0 .2rem .2rem;
+  margin-top: .02rem;
+}

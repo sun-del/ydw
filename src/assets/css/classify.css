@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html{
+  background-color: #EEEEEE;
+}
+.classify_heard{
+  position: relative;
+  width: 7.5rem;
+  height: 1rem;
+  background: url("../images/oring.jpg") no-repeat;
+  background-size: 100%;
+}
+.classify_heard input{
+  position: absolute;
+  width: 5.18rem;
+  height: .62rem;
+  opacity: .6;
+  border: none;
+  border-radius: .2rem;
+  bottom: .18rem;
+  left: 50%;
+  margin-left: -2.59rem;
+  background: #fff url('../images/search.png') no-repeat 4.56rem .15rem;
+  background-size: .38rem .38rem;
+  font-size: 20px;
+}
+.classify_nav{
+  float: left;
+}
+.classify_nav li{
+  width: 2.35rem;
+  height: .92rem;
+  line-height: .92rem;
+
+}
+.classify_nav li .active{
+  width: 2.35rem;
+  border-left: .1rem solid #1d84a7;
+  color: #ff9900;
+}
+.classify_nav li a{
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-size: .24rem;
+  line-height: .92rem;
+  text-indent: .3rem;
+  border-left: .1rem solid #fff;
+}
