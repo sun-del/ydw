@@ -4,6 +4,7 @@
 
 			<!-- 轮播图 -->
 			<div class="carousel">
+        <h1>hello word</h1>
 				<div class="hot">
 					<img src="../assets/images/furniture.png" alt="">
 					<span>{{list.name}}</span>
