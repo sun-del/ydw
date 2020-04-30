@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "qs": "^6.9.0",
     "reset": "^0.1.0",
     "stylus": "^0.54.7",
